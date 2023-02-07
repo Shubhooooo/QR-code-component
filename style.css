@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: hsl(220, 15%, 55%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  background-color: white;
+  width: 18vw;
+  height: 65vh;
+  word-wrap: normal;
+  border-radius: 15px;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+}
+.big {
+  font-size: 18px;
+  font-weight: bolder;
+  padding: 0px 18px 0px 18px;
+}
+.qr {
+  border-radius: 25px;
+  width: 220px;
+  padding: 15px;
+}
+.small {
+  font-size: 13px;
+  color: grey;
+  padding: 10px 20px 20px 20px;
+}
